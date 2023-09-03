@@ -1,0 +1,126 @@
+@media screen and (max-width: 1100px) {
+  header .navbar .cart {
+    right: 10%;
+  }
+  main .contact .organaizer .top h1,
+  main .cards aside .top .text h1,
+  main .brands aside .top .text h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  header .navbar .container-fluid .collapse {
+    background-color: white;
+    margin-top: 20px;
+    z-index: 10;
+  }
+  header .navbar .cart {
+    position: absolute;
+    top: 20px;
+    right: 45%;
+  }
+  .card-text {
+    display: none;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-link button {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  main .cards aside .top,
+  main .brands aside .top {
+    display: block;
+  }
+
+  main .contact .organaizer {
+    row-gap: 0px;
+  }
+
+  main .contact .organaizer .top {
+    grid-template-columns: 1fr;
+  }
+  main .contact .organaizer .bottom .left {
+    display: none;
+  }
+
+  main .contact .organaizer .bottom {
+    place-items: center;
+  }
+
+  main .brands aside .bottom,
+  main .contact .organaizer .bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .brands aside .bottom img {
+    width: 70%;
+  }
+
+  element.style {
+    text-align: center;
+  }
+  main .advertisment .organizer .top h5 {
+    text-align: center;
+  }
+  .card-body {
+    display: flex;
+  }
+  header .navbar .cart {
+    top: 30px;
+  }
+  header .navbar .cart i {
+    font-size: 2rem;
+  }
+  header .navbar .cart i span {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .list-group-item {
+    font-size: 0.875rem;
+  }
+  .card-link button {
+    font-size: 0.6rem;
+  }
+  .close {
+    font-size: 0.5rem;
+    padding: 0.4rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  header .navbar .cart {
+    right: -40px;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .card-title {
+    font-size: 0.875rem;
+  }
+  .list-group-item {
+    font-size: 0.6rem;
+  }
+  .card-link button {
+    font-size: 0.4rem;
+  }
+  .close {
+    font-size: 0.3rem;
+    padding: 0.2rem;
+  }
+  .overlay .card {
+    gap: 0px;
+    height: 50%;
+  }
+}
