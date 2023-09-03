@@ -162,7 +162,7 @@ function removeItemFromCart(id) {
 function checkout() {
   generateCartId(cartArray);
   for (let i = 0; i < cartArray.length; i++) {
-    if (cartArray.length > 0) {
+    if (cartArray.length > 1) {
       Swal.fire({
         icon: "success",
         title: `Your Order: #${cartArray[0]}`,
